@@ -1,0 +1,53 @@
+[2022/04/26 12:08:32][v1.0.0][Application] Application started
+[2022/04/26 12:08:32][v1.0.0][Application] Crash
+Message: Invalid database detected
+Details: Unable to open C:/database.db. File not found
+StackTrace: Application.Init (line 43)
+[2022/04/26 12:08:34][v1.0.0][Application] Application started
+[2022/04/26 12:08:34][v1.0.0][Application] Crash
+Message: Invalid database detected
+Details: Unable to open C:/database.db. File not found
+StackTrace: Application.Init (line 43)
+[2022/04/26 12:08:36][v1.0.0][Application] Application started
+[2022/04/26 12:08:36][v1.0.0][Application] Crash
+Message: Invalid database detected
+Details: Unable to open C:/database.db. File not found
+StackTrace: Application.Init (line 43)
+[2022/04/26 12:08:38][v1.0.0][Application] Application started
+[2022/04/26 12:08:38][v1.0.0][Application] Crash
+Message: Invalid database detected
+Details: Unable to open C:/database.db. File not found
+StackTrace: Application.Init (line 43)
+[2022/04/26 12:09:12][v1.0.1][Application] Application started
+[2022/04/26 12:09:12][v1.0.1][Sign In] Signing in
+[2022/04/26 12:09:17][v1.0.1][Sign In] 500 Internal Server Error
+[2022/04/26 12:09:17][v1.0.1][Sign In] Sign in failed. Closing the application
+[2022/04/26 12:09:17][v1.0.1][Application] Application closed
+[2022/04/26 12:09:19][v1.0.1][Application] Application started
+[2022/04/26 12:09:19][v1.0.1][Sign In] Signing in
+[2022/04/26 12:09:22][v1.0.1][Sign In] Incorrect password
+[2022/04/26 12:09:22][v1.0.1][Sign In] Sign in failed. Closing the application
+[2022/04/26 12:09:22][v1.0.1][Application] Application closed
+[2022/04/26 12:11:37][v1.0.1][Application] Application started
+[2022/04/26 12:11:37][v1.0.1][Sign In] Signing in
+[2022/04/26 12:11:42][v1.0.1][Sign In] Signed in
+[2022/04/26 12:11:42][v1.0.1][Sign In] username=Roger;os=Windows 10;id=987423
+[2022/04/26 12:11:43][v1.0.1][File Service] Checking for files to download
+[2022/04/26 12:11:45][v1.0.1][File Service] File downloaded
+[2022/04/26 12:11:47][v1.0.1][File Service] File downloaded
+[2022/04/26 12:11:49][v1.0.1][File Service] File downloaded
+[2022/04/26 12:11:51][v1.0.1][File Service] File downloaded
+[2022/04/26 12:11:53][v1.0.1][File Service] File downloaded
+[2022/04/26 12:11:54][v1.0.1][File Service] Checking for files to upload
+[2022/04/26 12:11:56][v1.0.1][File Service] File uploaded
+[2022/04/26 12:11:58][v1.0.1][File Service] File uploaded
+[2022/04/26 12:11:59][v1.0.1][File Service] Checking for corrupted files
+[2022/04/26 12:11:59][v1.0.1][File Service] Corrupted file detected. Deleting C:/Files/image1.jpeg
+[2022/04/26 12:11:59][v1.0.1][File Service] Exception: Failed to delete corrupted file. File in use by another process
+[2022/04/26 12:11:59][v1.0.1][File Service] Corrupted file detected. Deleting C:/Files/image2.jpeg
+[2022/04/26 12:11:59][v1.0.1][File Service] Exception: Failed to delete corrupted file. File in use by another process
+[2022/04/26 12:11:59][v1.0.1][File Service] Corrupted file detected. Deleting C:/Files/image3.jpeg
+[2022/04/26 12:11:59][v1.0.1][File Service] Exception: Failed to delete corrupted file. File in use by another process
+[2022/04/26 12:11:59][v1.0.1][File Service] Corrupted file detected. Deleting C:/Files/image4.jpeg
+[2022/04/26 12:11:59][v1.0.1][File Service] Exception: Failed to delete corrupted file. File in use by another process
+[2022/04/26 12:12:00][v1.0.1][File Service] Files synced

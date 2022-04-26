@@ -1,0 +1,51 @@
+{
+    "TimestampFormat": [
+        "\\d{2,4}\/\\d{2}\/\\d{2,4} \\d{2}:\\d{2}:\\d{2}",
+        "\\d{1,2}-[A-Za-z]{2,4}-\\d{2,4} \\d{1,2}:\\d{1,2}:\\d{1,2} (AM|PM)",
+        "\\d{1,4}\/\\d{1,2}\/\\d{1,4} \\d{1,2}:\\d{1,2}:\\d{1,2} (AM|PM)"
+    ],
+    "VersionIdentifierStart": "[v",
+    "VersionIdentifierEnd": "]",
+    "RestartIdentifier": "\\[Application\\] Application started",
+    "ExceptionIdentifier": "Exception:",
+    "ExitIdentifier": "\\[Application\\] Application closed",
+    "CrashIdentifier": "\\[Application\\] Crash",
+    "AdditionalRestartLines": 5,
+    "AdditionalExceptionLines": 1,
+    "AdditionalExitLines": 5,
+    "AdditionalCrashLines": 0,
+    "Extract": [
+        {
+            "Name": "Username",
+            "IdentifierStart": "username=",
+            "IdentifierEnd": ";"
+        },
+        {
+            "Name": "Operating System",
+            "IdentifierStart": "os=",
+            "IdentifierEnd": ";"
+        }
+    ],
+    "Count": [        
+        {
+            "Name": "Server Errors",
+            "Identifier": "Internal Server Error"
+        },
+        {
+            "Name": "Incorrect password",
+            "Identifier": "Incorrect password"
+        },
+        {
+            "Name": "Corrupted Files",
+            "Identifier": "Corrupted file detected"
+        },
+        {
+            "Name": "Files Uploaded",
+            "Identifier": "File uploaded"
+        },
+        {
+            "Name": "Files Downloaded",
+            "Identifier": "File downloaded"
+        }
+    ]
+}
